@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,12 +10,105 @@
     <!-- rel - Relative element href - hypertext reference -->
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+
+<div>DIV</div>
+<span>SPAN</span>
     <!-- lampy.pl dobre pozycjonowanie -->
     <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis modi placeat exercitationem illo fugit nostrum voluptatem illum labore, ipsa saepe tempora! Sunt omnis ratione saepe soluta qui quisquam voluptatibus dolores!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis modi placeat exercitationem illo fugit
+        nostrum voluptatem illum labore, ipsa saepe tempora! Sunt omnis ratione saepe soluta qui quisquam voluptatibus
+        dolores!
     </p>
+    <h1>H1</h1>
+    <h2>H2</h2>
+    <h3>H3</h3>
+    <H4>H4</H4>
+    <h5>H5</h5>
 
-     <script src="js/script.js"></script>   
+    <a href="lampy.pl">Lampy</a>
+    <a href="index.html">kliknij</a>
+    <a href="#home">Przejdź do góry</a>
+    <a href="mailto:mail@gmail.com">wyslij mail</a>
+    <!-- ol>li*6{jan kowalski} -->
+    <ol>
+        <li>jan kowalski</li>
+        <li>jan kowalski</li>
+        <li>jan kowalski</li>
+        <li>jan kowalski</li>
+        <li>jan kowalski</li>
+        <li>jan kowalski</li>
+    </ol>
+
+    <!-- ul>li*6{jan kowalski} -->
+    <ul>
+        <li>jan kowalski</li>
+        <li>jan kowalski</li>
+        <li>jan kowalski</li>
+        <li>jan kowalski</li>
+        <li>jan kowalski</li>
+        <li>jan kowalski</li>
+    </ul>
+    <!-- tabela ma miec 3 wiersze i 4 kolumny -->
+    <table>
+        <thead>
+            <th>LP.</th>
+            <th>Imię</th>
+            <th>Nazwisko</th>
+            <th>Miasto</th>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Jan</td>
+                <td>Kowalski</td>
+                <td>Gdańsk</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Andrzej</td>
+                <td>Nawara</td>
+                <td>Poznań</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Paulina</td>
+                <td>GdzieFolder</td>
+                <td>Nawiasy trójatne</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Radek</td>
+                <td>Pełen</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- znacznik pre przełożenie 1 do 1 -->
+    <img src="img/z27645697Q,Widok-z-Rysow-w-strone-Mieguszowieckich-Szczytow-.jpg" alt="">
+
+    <form action="">
+        <label for="imie">Imię</label>
+        <input type="text" name="imie" id="name"
+        placeholder="Wpisz Imię">
+
+        <label for="nazwisko">Nazwisko</label>
+        <input type="text" name="nazwisko" id="surname"
+        placeholder="Wpisz Nazwisko">
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email"
+        placeholder="Wpisz Email">
+
+        <label for="email">Email</label>
+        <input type="password" name="password" id="password"
+        placeholder="Wpisz Hasło">
+
+        <button type="submit">Wyślij</button>
+        
+    </form>
+
+    <script src="js/script.js"></script>
 </body>
+
 </html>
