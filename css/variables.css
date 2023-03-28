@@ -1,0 +1,11 @@
+ /* zmienne globalne */
+ :root {
+     /* zmienna koloru tła */
+     --body-bg: #faeddf;
+     /* zmienna koloru tekstu */
+     --body-color: #7a5932;
+     /* tło prawej kolumy */
+     --col-right-bg: #f0deca;
+     /* czcionka */
+     --body-font-family: 'Montserrat', sans-serif;
+ }

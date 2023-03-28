@@ -1,0 +1,37 @@
+body {
+    font-family: var(--body-font-family);
+    font-weight: 300;
+}
+
+p {
+    font-family: var(--body-font-family);
+    font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--body-font-family);
+    font-weight: 700;
+    color: var(--body-color);
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 200;
+    line-height: 94px;
+    letter-spacing: -4px;
+}
+
+h2 {}
+
+h3 {}
+
+h4 {}
+
+h5 {}
+
+h6 {}
