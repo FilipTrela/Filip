@@ -19,3 +19,17 @@ body {
     background-color: var(--col-right-bg);
     width: 66.666%;
 }
+
+.welcome-tittle {
+    display: flex;
+    flex-direction: column;
+    padding: 10% 20%;
+}
+
+.zigzag {
+    position: absolute;
+    right: 90px;
+    bottom: 0;
+    width: 150px;
+    height: 34px;
+}
