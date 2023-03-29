@@ -6,6 +6,8 @@ body {
 p {
     font-family: var(--body-font-family);
     font-weight: 300;
+    line-height: 2;
+    color: var(--body-color);
 }
 
 h1,
@@ -25,13 +27,26 @@ h1 {
     line-height: 94px;
     letter-spacing: -4px;
 }
+.women{
+    height: 100%;
+}
+h2 {
+    font-size: 50px;
+    color: white;
+    font-weight: 300;
+}
 
-h2 {}
+h3 {
+    font-size: 30px;
+}
 
-h3 {}
-
-h4 {}
+h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
 
 h5 {}
 
-h6 {}
+h6 {
+    font-size: 13px;
+}
