@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <title>egzamin</title>
+</head>
+
+<body>
+    <style>
+        p,
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .wrapper,
+        .box2 {
+            display: inline-block;
+        }
+
+        .wrapper {
+            float: left;
+            width: 33.1%;
+        }
+
+        .box1 {
+            height: 200px;
+            background: #F7DB6A
+        }
+
+        .box2 {
+            width: 66.7%;
+            height: 500px;
+            float: left;
+            background: #7AA874
+        }
+
+        .box3 {
+            height: 298.5px;
+            background-color: #EBB02D;
+        }
+
+        /* .box1:hover,
+        .box2:hover,
+        .box3:hover {
+            background: #6717a3;
+        } */
+        .box1:hover {
+            background-image: url(img/pole1.jpg);
+            /* background-repeat: no-repeat; */
+            background-position: center;
+            background-size: cover;
+        }
+
+        .box3:hover {
+            background-image: url(img/pole2.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .box2:hover {
+            background-image: url(img/pole3.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .box1:hover .text {
+            font-size: 70px;
+            color: #D864A9;
+            text-shadow: 5px 5px #000;
+
+            /* transform: translate(-120px, 50%);
+            transition: all 0.2s linear; */
+        }
+
+        .box2:hover .text {
+            font-size: 80px;
+            color: #D864A9;
+            text-shadow: 5px 5px #000;
+            /* transition: all 0.2s linear; */
+        }
+
+        .box3:hover .text {
+            font-size: 70px;
+            color: #D864A9;
+            text-shadow: 5px 5px #000;
+            /* transition: all 0.2s linear; */
+        }
+
+        .text {
+            color: azure;
+            font-size: 50px;
+            text-align: center;
+            transition: all 0.2s linear;
+        }
+
+        .t_box1 {
+            padding: 70px 0;
+        }
+
+        .t_box2 {
+            padding: 200px 0;
+        }
+
+        .t_box3 {
+            padding: 120px 0;
+        }
+
+        .h1 {
+            font-size: 80px;
+            text-align: center;
+            letter-spacing: 40px;
+            font-weight: 900;
+            color: #F7DB6A;
+        }
+
+        body {
+            background-color: #D864A9
+        }
+
+        .back p {
+            font-size: 20px;
+            text-align: right;
+            padding-right: 1%;
+        }
+    </style>
+    <div class="container">
+        <div class="tiitle">
+            <h1 class="h1">POLA</h1>
+        </div>
+        <div class="wrapper">
+            <div class="box1">
+                <p class="text t_box1">Lewa góra</p>
+            </div>
+            <div class="box3">
+                <p class="text t_box3">Lewy dół</p>
+            </div>
+        </div>
+        <div class="box2">
+            <p class="text t_box2">Prawa strona</p>
+        </div>
+        <div class="back">
+            <a href="index.html">
+                <p>BACK</p>
+            </a>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

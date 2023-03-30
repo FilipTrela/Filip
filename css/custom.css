@@ -89,6 +89,7 @@ body {
 .icon {
     width: 120px;
     height: 110px;
+    /* transition: all 0.2s; */
 }
 
 .image-items {
@@ -100,6 +101,7 @@ body {
 .icon_dsc {
     text-transform: uppercase;
     text-align: center;
+    text-decoration: none;
 }
 
 .after::after {
@@ -119,8 +121,9 @@ body {
 .first_photo,
 .secend_photo {
     display: flex;
-   
+
 }
+
 .first_photo img,
 .secend_photo img {
     max-width: 100%;
@@ -133,5 +136,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
+.hover {
+    transition: all 0.2s linear;
+}
+
+.hover:hover {
+    transition: all 0.2s linear;
+    transform: scale(1.3);
 }
