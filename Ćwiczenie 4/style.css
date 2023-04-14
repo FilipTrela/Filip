@@ -1,0 +1,30 @@
+.light {
+    font-weight: 100;
+    color: red;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.item {
+    width: 100px;
+    height: 50px;
+    background: #000;
+    color: #fff;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    transition: all linear 0.2s;
+    transition-delay: 0.3s;
+}
+
+.item:hover {
+    background: blue;
+    font-weight: 900;
+    font-size: 110%;
+    transition-delay: unset;
+
+}
